@@ -3,7 +3,7 @@
 #Lists: ordered, mutable, allows duplicate items
 
 List_1 = ["banana", "strawberry", "apply"] #Ordered
-List_2 = [5, "apple", True] #Mutable
+List_2 = [5, "apple", True] 
 List_3 = ["apple", "apple"] #Allows duplicate elements
 
 item = List_1[0] #To print specific item, HINT: indexing starts with zero.
@@ -17,7 +17,7 @@ if "banana" in List_1:
 
 len(List_1) #Return number of items in the list
 
-List_1.append("Lemon") #Insert new item in the end of the list
+List_1.append("Lemon") #Insert new item in the end of the list HINT: MUTABLE
 
 List_1.insert(0, "Peach") #insert item at specific index
 
