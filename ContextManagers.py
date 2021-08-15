@@ -24,3 +24,5 @@ class ManagedFile:
             file.close()
         print('exit')
 
+with ManagedFile('notes.txt') as file:
+    file.write('some names')
